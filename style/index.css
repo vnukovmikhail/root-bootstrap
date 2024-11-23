@@ -1,0 +1,66 @@
+.mx-xxs {
+    margin: 0 300px;
+}
+.row>* {
+    max-width: 100%;
+}
+.phsrc {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    text-decoration-thickness: 3px;
+}
+.text-truncate-s {
+    max-width: 150px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.active-t {
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+}
+.info > div > div > div:not(:last-child) {
+    padding-right: 1% !important;
+}
+.out > div > div * {
+    text-shadow:
+    2px 2px 0px rgba(0, 0, 0, 0.7),
+    -2px -2px 0px rgba(0, 0, 0, 0.7),
+    2px -2px 0px rgba(0, 0, 0, 0.7),
+    -2px 2px 0px rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 992px) {
+    .mx-xxs {
+        margin: 0 !important;
+    }
+    .content-list > div:nth-last-child(2) {
+        display: none !important;
+    }
+    .content-list > div {
+        padding: 1%;
+    }
+    .text-truncate-s {
+        font-size: 70%;
+    }
+}
+@media (max-width: 1400px) {
+    .mx-xxs {
+        margin: 0 50px;
+    }
+    .content-list > div:last-child {
+        display: none !important;
+    }
+}
+@media (max-width: 992px) {
+    h6 {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 1400px) or (min-width: 992px) or (min-width: 768px) or (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
