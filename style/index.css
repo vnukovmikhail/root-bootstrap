@@ -1,6 +1,9 @@
+/* INDEX */
 .mx-xxs {
     margin: 0 300px;
 }
+
+/* CATALOG */
 .row>* {
     max-width: 100%;
 }
@@ -31,6 +34,16 @@
     2px -2px 0px rgba(0, 0, 0, 0.7),
     -2px 2px 0px rgba(0, 0, 0, 0.7);
 }
+
+/* FAQ */
+.sticky {
+    top: 20%;
+}
+.sticky h5 {
+    font-size: 18px;
+}
+
+/* MEDIA */
 @media (max-width: 992px) {
     .mx-xxs {
         margin: 0 !important;
