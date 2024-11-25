@@ -31,7 +31,7 @@
                         </li>
                     </ul>
                     <div class="collapse d-flex" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="stext">
                             <p class="d-flex nav-link m-0">Visit our showroom in 1234 Street Adress City Address, 1234 <a class="ps-1 text-primary fw-bold" href="#">Contact Us</a></p>
                         </ul>
                     </div>
@@ -59,7 +59,7 @@
                             <a class="nav-link" href="catalog.html">Repairs</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex" role="search" id="Search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
@@ -126,59 +126,80 @@
 
         <section class="col-4 position-relative">
             <div class="bg-light d-block p-3 position-sticky sticky">
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-black">Definitions & Interpretation</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">General</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">Quotations</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">Prices / Taxes</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">Terms of Payment</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">Credit Accounts</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">Change of Ownership</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">Information on the Products supplied</h5></a>
-                <a class="text-decoration-none" href=""><h5 class="my-3 text-dark">Delivery</h5></a>
+                <a class="text-decoration-none" href="#Definitions-Interpretation"><h5 class="my-3 text-black">Definitions & Interpretation</h5></a>
+                <a class="text-decoration-none" href="#General"><h5 class="my-3 text-dark">General</h5></a>
+                <a class="text-decoration-none" href="#Quotations"><h5 class="my-3 text-dark">Quotations</h5></a>
+                <a class="text-decoration-none" href="#Prices-Taxes"><h5 class="my-3 text-dark">Prices / Taxes</h5></a>
+                <a class="text-decoration-none" href="#Terms-of-Payment"><h5 class="my-3 text-dark">Terms of Payment</h5></a>
+                <a class="text-decoration-none" href="#Credit-Accounts"><h5 class="my-3 text-dark">Credit Accounts</h5></a>
+                <a class="text-decoration-none" href="#Change-of-Ownership"><h5 class="my-3 text-dark">Change of Ownership</h5></a>
+                <a class="text-decoration-none" href="#Information-on-the-Products-supplied"><h5 class="my-3 text-dark">Information on the Products supplied</h5></a>
+                <a class="text-decoration-none" href="#Delivery"><h5 class="my-3 text-dark">Delivery</h5></a>
             </div>
         </section>
     </section>
         
+    <section class="extra my-5">
+        <div class="container text-center">
+                <div class="row gap-2">
+                    <div class="col">
+                        <img class="p-4" src="src/extra/Support.svg" alt="...">
+                        <h4>Product Support</h4>
+                        <h5 class="text-secondary">Up to 3 years on-site warranty available for your peace of mind.</h5>
+                    </div>
+                    <div class="col">
+                        <img class="p-4" src="src/extra/Account.svg" alt="...">
+                        <h4>Personal Account</h4>
+                        <h5 class="text-secondary">With big discounts, free delivery and a dedicated support specialist.</h5>
+                    </div>
+                    <div class="col">
+                        <img class="p-4" src="src/extra/Saving.svg" alt="...">
+                        <h4>Amazing Savings</h4>
+                        <h5 class="text-secondary">Up to 70% off new Products, you can be sure of the best price.</h5>
+                    </div>
+                </div>
+          </div>
+    </section>
 
     <footer>
         <div class="container bg-light">
-            <footer class="py-5">
+            <footer class="pt-5 pb-3">
                 <div class="row">
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Information</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Search</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Orders and Returns</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Orders and Returns</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Newsletter Subscription</a></li>
+                            <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">About Us</a></li>
+                            <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+                            <li class="nav-item mb-2"><a href="#Search" class="nav-link p-0 text-body-secondary">Search</a></li>
+                            <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">Terms</a></li>
+                            <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">Orders and Returns</a></li>
+                            <li class="nav-item mb-2"><a href="contact-us.html" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+                            <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">Orders and Returns</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Newsletter Subscription</a></li>
                         </ul>
                     </div>
             
                     <div class="col-6 col-md-2 mb-3">
                         <h5>PC Parts</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">CPUs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hard Drives [Internal]</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Graphic Cards</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Keyboards / Mice</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cases / PSU</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">RAM [Memory]</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Software</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Motherboards</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">CPUs</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Hard Drives [Internal]</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Graphic Cards</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Keyboards / Mice</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Cases / PSU</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">RAM [Memory]</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Software</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Motherboards</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Laptops</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MSI Workstation Series</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MSI Prestige Series</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tablets and Pads</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Netbooks</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">MSI Workstation Series</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">MSI Prestige Series</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Tablets and Pads</a></li>
+                            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Netbooks</a></li>
                         </ul>
                     </div>
             
@@ -187,15 +208,15 @@
                         <h5>Subscribe to our newsletter</h5>
                         <p>Monthly digest of what's new and exciting from us.</p>
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                        <label for="newsletter1" class="visually-hidden">Email address</label>
-                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                        <button class="btn btn-primary" type="button">Subscribe</button>
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
                         </div>
                     </form>
                     </div>
                 </div>
             
-                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 pb-1 mb-1 border-top">
                     <p>© 2024 Company, Inc. All rights reserved.</p>
                     <!-- <ul class="list-unstyled d-flex">
                     <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
