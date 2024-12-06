@@ -5,8 +5,10 @@ console.log(catalog)
 
 for (let i = 0; i < 36; i++) {
     const item = document.createElement('div')
+    item.style.padding = '5px'
+    item.classList.add('border')
     item.innerHTML = `
-    <div class="col d-flex flex-column gap-1">
+    <div class="col d-flex flex-column gap-0">
         <div class="text-success"><h6>aviable</h6></div> 
         <img src="src/150x150.png" class="img-fluid" alt="...">
         <div class="text-warning font-weight-bold">s s s s s</div>
