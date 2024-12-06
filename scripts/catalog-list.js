@@ -1,7 +1,4 @@
 const catalog = document.querySelector('.catalog div div')
-console.log(catalog)
-
-
 
 for (let i = 0; i < 36; i++) {
     const item = document.createElement('div')
