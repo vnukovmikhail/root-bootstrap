@@ -67,11 +67,11 @@
         font-weight: 1000;
     }
 
-    .d-flex {
+    .cat .d-flex {
         display: block !important;
     }
     .filter > div:first-child {
-        
+
     }
 }
 @media (max-width: 1400px) {
