@@ -67,66 +67,88 @@
             </div>
         </nav>
     </header>
+    <section class="d-flex position-relative">
+        <section class="filter">
+                <div class="flex-shrink-0 p-3 position-sticky" style="width: 190px; top: 50px;">
+                    <span class="fs-5 fw-semibold">Filters</span>
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <button class="btn border-0 p-0" data-bs-toggle="collapse" data-bs-target="#brands-collapse" aria-expanded="true">
+                                Brands
+                            </button>
+                            <div class="collapse show" id="brands-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li class="px-3"><input type="checkbox">Roccat</li>
+                                    <li class="px-3"><input type="checkbox">MSI</li>
+                                    <li class="px-3"><input type="checkbox">Thermaltake</li>
+                                    <li class="px-3"><input type="checkbox">Adata</li>
+                                    <li class="px-3"><input type="checkbox">HP</li>
+                                    <li class="px-3"><input type="checkbox">GIGABYTE</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn border-0 p-0" data-bs-toggle="collapse" data-bs-target="#psu-collapse" aria-expanded="true">
+                                Processor
+                            </button>
+                            <div class="collapse show" id="psu-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li class="px-3"><input type="checkbox">AMD Ryzen 5</li>
+                                    <li class="px-3"><input type="checkbox">AMD Ryzen 7</li>
+                                    <li class="px-3"><input type="checkbox">AMD Ryzen 9</li>
+                                    <li class="px-3"><input type="checkbox">Intel Core i3</li>
+                                    <li class="px-3"><input type="checkbox">Intel Core i5</li>
+                                    <li class="px-3"><input type="checkbox">Intel Core i7</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn border-0 p-0" data-bs-toggle="collapse" data-bs-target="#ram-type-collapse" aria-expanded="true">
+                                RAM type
+                            </button>
+                            <div class="collapse show" id="ram-type-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li class="px-3"><input type="checkbox">DDR4</li>
+                                    <li class="px-3"><input type="checkbox">DDR5</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mb-1">
+                            <button class="btn border-0 p-0" data-bs-toggle="collapse" data-bs-target="#price-collapse" aria-expanded="true">
+                                Price
+                            </button>
+                            <div class="collapse show" id="price-collapse">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    <li class="px-3"><input type="checkbox">$0.00 - $1,000</li>
+                                    <li class="px-3"><input type="checkbox">$1,000 - $2,000</li>
+                                    <li class="px-3"><input type="checkbox">$2,000 - $3,000</li>
+                                    <li class="px-3"><input type="checkbox">$3,000 - $4,000</li>
+                                    <li class="px-3"><input type="checkbox">$4,000 - $5,000</li>
+                                    <li class="px-3"><input type="checkbox">$5,000 - $6,000</li>
+                                    <li class="px-3"><input type="checkbox">$7,000 and above</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="border-top my-3"></li>
+                    </ul>
+                </div>
+        </section>
 
-    <section>
-        <div class="flex-shrink-0 p-3" style="width: 280px;">
-            <span class="fs-5 fw-semibold">Tags</span>
-            <ul class="list-unstyled ps-0">
-                <li class="mb-1">
-                    <button class="btn border-0 p-0" data-bs-toggle="collapse" data-bs-target="#brands-collapse" aria-expanded="true">
-                        Brands
-                    </button>
-                    <div class="collapse show" id="brands-collapse" style="">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li class="px-3"><input type="checkbox">Kingmalion</li>
-                            <li class="px-3"><input type="checkbox">Omega</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <button class="btn border-0 p-0" data-bs-toggle="collapse" data-bs-target="#psu-collapse" aria-expanded="true">
-                        Processor
-                    </button>
-                    <div class="collapse show" id="psu-collapse" style="">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li class="px-3"><input type="checkbox">AMD Ryzen 5</li>
-                            <li class="px-3"><input type="checkbox">AMD Ryzen 7</li>
-                            <li class="px-3"><input type="checkbox">AMD Ryzen 9</li>
-                            <li class="px-3"><input type="checkbox">Intel Core i3</li>
-                            <li class="px-3"><input type="checkbox">Intel Core i5</li>
-                            <li class="px-3"><input type="checkbox">Intel Core i7</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="mb-1">
-                    <button class="btn border-0 p-0" data-bs-toggle="collapse" data-bs-target="#ram-type-collapse" aria-expanded="true">
-                        RAM type
-                    </button>
-                    <div class="collapse show" id="ram-type-collapse" style="">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li class="px-3"><input type="checkbox">DDR4</li>
-                            <li class="px-3"><input type="checkbox">DDR5</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="border-top my-3"></li>
-            </ul>
-        </div>
+        <section>
+            <section>
+                <div class="d-flex mt-3">
+                    <h2>Our products</h2>
+                </div>
+            </section>
+
+            <section class="catalog">
+                <div class="container text-left mt-3">
+                    <div class="row row-cols-4 row-cols-md-4 row-cols-lg-5 row-cols-xl-6"></div>
+                </div>
+            </section>
+        </section>
     </section>
 
-    <section>
-        <div class="d-flex mt-5">
-            <h2>Our products</h2>
-        </div>
-    </section>
-
-    <section class="catalog">
-        <div class="container text-left mt-5">
-            <div class="row row-cols-4 row-cols-md-4 row-cols-lg-5 row-cols-xl-6">
-            </div>
-        </div>
-    </section>
-    
     <section class="extra my-5">
         <div class="container text-center">
                 <div class="row gap-2">

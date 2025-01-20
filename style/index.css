@@ -66,6 +66,10 @@
         font-size: 2vw;
         font-weight: 1000;
     }
+
+    .d-flex {
+        display: block !important;
+    }
 }
 @media (max-width: 1400px) {
     .mx-xxs {
