@@ -70,6 +70,9 @@
     .d-flex {
         display: block !important;
     }
+    .filter > div:first-child {
+        
+    }
 }
 @media (max-width: 1400px) {
     .mx-xxs {
